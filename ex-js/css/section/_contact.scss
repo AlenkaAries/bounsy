@@ -1,0 +1,29 @@
+.contact {
+    width: 100%;
+    min-height: 740px;
+    background-color: $white;
+
+&__map-map {
+    min-height: 439px;
+}
+
+&__map-title {
+    font: 400 20px 'Open Sans Condensed';
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-top: 80px;
+}
+
+&__map-subtitle {
+    font: 400 14px 'Open Sans';
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: $gray;
+    margin: 0 auto;
+    text-align: center;
+    width: 30%;
+    padding-top: 40px;
+    padding-bottom: 58px;
+}
+}

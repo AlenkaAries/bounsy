@@ -1,0 +1,70 @@
+.footer {
+    width: 100%;
+    min-height: 204px;
+    background-color: $white2;
+
+&__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+&__logo {
+    padding-top: 20px;
+    margin-bottom: 22px;
+}
+
+&__copy {
+    font: 400 14px 'Open Sans';
+    color: $gray;
+    margin-bottom: 40px;
+}
+
+&__social-list {
+    display: flex;
+    
+}
+
+&__social-item {
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    &:last-of-type {
+        margin-right: 0;
+    }
+    &:hover {
+        box-shadow: 0 0 20px rgb(59, 94, 190);
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+}
+
+&__social-icon {
+   color: $white;
+}
+
+&__social-one {
+    background: $blue;
+}
+
+&__social-two {
+    background: $blue2;
+}
+
+&__social-three {
+    background: $blue3;
+}
+
+&__social-four {
+    background: $blue4;
+}
+
+&__social-five {
+    background: $blue5;
+}
+}
